@@ -4,5 +4,5 @@ Thus they will be updated in April or May, at least before CVPR2021 :)
 
 We are almost ready to release code and preprocessed data. 
 It takes some more days.
-We are planning to release them on Jun 4 or 5.
+We are planning to release them on Jun 5 or 6.
 Stay tuned :)
