@@ -127,7 +127,7 @@ pretrain.py
 * `--valid_data`: folder path to validation lmdb dataset. default: `data_CVPR2021/validation/`
 * `--select_data`: select training data. default is 'unlabel' which means 3 real unlabeled datasets.
 * `--model_name`: select model 'NV' for CRNN. 'NR' or 'TR' for TRBA.
-* `--self`: 'whether to use self-supervised learning |RotNet|MoCo|'
+* `--self`: whether to use self-supervised learning |RotNet|MoCo|
 
 test.py
 * `--eval_data`: folder path to evaluation lmdb dataset. As a default, when you use `eval_type`, this will be set to `data_CVPR2021/evaluation/benchmark/` or `data_CVPR2021/evaluation/addition/`
