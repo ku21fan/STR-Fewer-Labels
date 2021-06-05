@@ -165,7 +165,7 @@ Please consider citing this work in your publications if it helps your research.
 ```
 @inproceedings{baek2021STRfewerlabels,
   title={What If We Only Use Real Datasets for Scene Text Recognition? Toward Scene Text Recognition With Fewer Labels},
-  author={Jeonghun Baek, Yusuke Matsui, Kiyoharu Aizawa},
+  author={Baek, Jeonghun and Matsui, Yusuke and Aizawa, Kiyoharu},
   booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
   year={2021}
 }
