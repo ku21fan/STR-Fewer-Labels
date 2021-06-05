@@ -50,7 +50,7 @@ There are 2 models (CRNN or TRBA) and 5 different settings of each model.
 3. Run demo.py
    ```
    CUDA_VISIBLE_DEVICES=0 python3 demo.py --model_name TRBA --image_folder demo_image/ \
-   --saved_model TPBA-Baseline-real.pth
+   --saved_model TRBA-Baseline-real.pth
    ```
 
 #### prediction results
