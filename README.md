@@ -142,7 +142,7 @@ demo.py
 
 
 ## When you need to train on your own dataset or Non-Latin language datasets.
-1. Create your own lmdb dataset. (you may need `pip3 install opencv-python` to `import cv2`)
+1. Create your own lmdb dataset. You may need `pip3 install opencv-python` to `import cv2`.
 
        python3 create_lmdb_dataset.py --inputPath data/ --gtFile data/gt.txt --outputPath result/
 
