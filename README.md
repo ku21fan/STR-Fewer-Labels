@@ -112,8 +112,8 @@ CUDA_VISIBLE_DEVICES=0 python3 test.py --eval_type benchmark --model_name CRNN \
 
 ### Arguments
 train.py (as a default, evaluate trained model on 6 benchmark datasets at the end of training.)
-* `--train_data`: folder path to training lmdb dataset. default: 'data_CVPR2021/training/label/'
-* `--valid_data`: folder path to validation lmdb dataset. default: 'data_CVPR2021/validation/'
+* `--train_data`: folder path to training lmdb dataset. default: `data_CVPR2021/training/label/`
+* `--valid_data`: folder path to validation lmdb dataset. default: `data_CVPR2021/validation/`
 * `--select_data`: select training data. default is 'label' which means 11 real labeled datasets.
 * `--batch_ratio`: assign ratio for each selected data in the batch. default is '1 / number of datasets'.
 * `--model_name`: select model 'CRNN' or 'TRBA'.
@@ -123,20 +123,20 @@ train.py (as a default, evaluate trained model on 6 benchmark datasets at the en
 * `--self_pre`: whether to use self-supversied pretrained model |RotNet|MoCo|. default: RotNet
 
 pretrain.py
-* `--train_data`: folder path to training lmdb dataset. default: 'data_CVPR2021/training/unlabel/'
-* `--valid_data`: folder path to validation lmdb dataset. default: 'data_CVPR2021/validation/'
+* `--train_data`: folder path to training lmdb dataset. default: `data_CVPR2021/training/unlabel/`
+* `--valid_data`: folder path to validation lmdb dataset. default: `data_CVPR2021/validation/`
 * `--select_data`: select training data. default is 'unlabel' which means 3 real unlabeled datasets.
 * `--model_name`: select model 'NV' for CRNN. 'NR' or 'TR' for TRBA.
 * `--self`: 'whether to use self-supervised learning |RotNet|MoCo|'
 
 test.py
-* `--eval_data`: folder path to evaluation lmdb dataset. As a default, when you use `eval_type`, this will be set to 'data_CVPR2021/evaluation/benchmark/' or 'data_CVPR2021/evaluation/addition/'
+* `--eval_data`: folder path to evaluation lmdb dataset. As a default, when you use `eval_type`, this will be set to `data_CVPR2021/evaluation/benchmark/` or `data_CVPR2021/evaluation/addition/`
 * `--eval_type`: select 'benchmark' to evaluate 6 evaluation datasets. select 'addition' to evaluate 7 additionally collected datasets (used in Table 6 in our supplementary material).
 * `--model_name`: select model 'CRNN' or 'TRBA'.
 * `--saved_model`: assign saved model to evaluation.
 
 demo.py
-* `--image_folder`: path to image_folder which contains text images. default: 'demo_image/'
+* `--image_folder`: path to image_folder which contains text images. default: `demo_image/`
 * `--model_name`: select model 'CRNN' or 'TRBA'.
 * `--saved_model`: assign saved model to use.
 
