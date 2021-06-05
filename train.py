@@ -109,7 +109,7 @@ def train(opt, log):
     if opt.saved_model != '':
         fine_tuning_log = f'### loading pretrained model from {opt.saved_model}\n'
 
-        if 'MoCo' in opt.saved_model:
+        if 'MoCo' in opt.saved_model or 'MoCo' in opt.self_pre:
             pretrained_state_dict_qk = torch.load(opt.saved_model)
             pretrained_state_dict = {}
             for name in pretrained_state_dict_qk:
@@ -400,6 +400,8 @@ if __name__ == '__main__':
     parser.add_argument('--MT_C', type=float, default=1, help='Mean Teacher consistency weight')
     parser.add_argument('--MT_alpha', type=float, default=0.999, help='Mean Teacher EMA decay')
     parser.add_argument('--model_for_PseudoLabel', default='', help="trained model for PseudoLabel")
+    parser.add_argument('--self_pre', type=str, default='RotNet',
+                        help='whether to use `RotNet` or `MoCo` pretrained model.')
     """ exp_name and etc """
     parser.add_argument('--exp_name', help='Where to store logs and models')
     parser.add_argument('--manual_seed', type=int, default=111, help='for random seed setting')

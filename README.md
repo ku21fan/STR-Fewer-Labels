@@ -119,6 +119,8 @@ train.py (as a default, evaluate trained model on 6 benchmark datasets at the en
 * `--model_name`: select model 'CRNN' or 'TRBA'.
 * `--Aug`: whether to use augmentation |None|Blur|Crop|Rot|
 * `--semi`: whether to use semi-supervised learning |None|PL|MT|
+* `--saved_model`: assign saved model to use pretrained model such as RotNet and MoCo.
+* `--self_pre`: whether to use self-supversied pretrained model |RotNet|MoCo|. default: RotNet
 
 pretrain.py
 * `--train_data`: folder path to training lmdb dataset. default: 'data_CVPR2021/training/unlabel/'
