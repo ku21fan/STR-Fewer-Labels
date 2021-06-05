@@ -182,9 +182,9 @@ def validation(model, criterion, eval_loader, converter, opt, tqdm_position=1):
                 if prd == gt:
                     n_correct += 1
 
-            # calculate confidence score (= multiply of pred_max_prob)
+            # calculate confidence score (= multiply of prd_max_prob)
             try:
-                confidence_score = pred_max_prob.cumprod(dim=0)[-1]
+                confidence_score = prd_max_prob.cumprod(dim=0)[-1]
             except:
                 confidence_score = 0  # for empty pred case, when prune after "end of sentence" token ([EOS])
             confidence_score_list.append(confidence_score)
