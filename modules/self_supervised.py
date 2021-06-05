@@ -7,7 +7,7 @@ from model import Model
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 
-class MoCoLoss(nn.Module):  # ddp (DistributedDataParallel) 안쓰는 버전으로 바꿔둠.
+class MoCoLoss(nn.Module):  # no ddp (DistributedDataParallel) version (use 1 gpu)
     """
     Build a MoCo model with: a query encoder, a key encoder, and a queue
     https://arxiv.org/abs/1911.05722
