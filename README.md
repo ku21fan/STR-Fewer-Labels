@@ -1,7 +1,7 @@
 # What If We Only Use Real Datasets for Scene Text Recognition? Toward Scene Text Recognition With Fewer Labels
 Official PyTorch implementation of STR-Fewer-Labels | [paper](https://arxiv.org/abs/2103.04400) | [training and evaluation data](https://github.com/ku21fan/STR-Fewer-Labels/blob/main/data.md) | [pretrained model](#pretrained_models) |
 
-**Jeonghun Baek, Yusuke Matusi, Kiyoharu Aizawa**
+**[Jeonghun Baek](https://jeonghunbaek.net/), [Yusuke Matusi](http://yusukematsui.me/), [Kiyoharu Aizawa](http://www.hal.t.u-tokyo.ac.jp/~aizawa/)**
 
 The University of Tokyo.
 
