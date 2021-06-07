@@ -30,10 +30,10 @@ This work is a stepping stone toward STR with fewer labels, and we hope this wor
       pip3 install lmdb pillow torchvision nltk natsort fire tensorboard tqdm
 
 
-### Download preprocessed lmdb dataset for traininig and evaluation
+### Download preprocessed lmdb dataset for traininig and evaluation 
 See [`data.md`](https://github.com/ku21fan/STR-Fewer-Labels/blob/main/data.md)
 
-<h3 id="pretrained_models"> Run demo with pretrained model </h3>
+<h3 id="pretrained_models"> Run demo with pretrained model <a href="https://colab.research.google.com/github/ku21fan/STR-Fewer-Labels/blob/master/demo_in_colab.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> </h3> 
 
 1. [Download pretrained model](https://www.dropbox.com/sh/23adceu2i85c4x1/AACLmaiL43Jy8eYIVVUkZ344a?dl=0) <br>
 There are 2 models (CRNN or TRBA) and 5 different settings of each model.
