@@ -87,7 +87,7 @@ Dataset | License | Message from original authors (for datasets with "No explici
 [ST-VQA](https://rrc.cvc.uab.es/?ch=11)[17] | [multiple license for multiple subdatasets](https://rrc.cvc.uab.es/?ch=11&com=downloads)
 
 - We would like to redistribute the above datasets (preprocessed version) to facilitate future research.
-- Some datasets do not publish explicit licenses. In this case, we ask them for the license via email. That is the 'Message from authors' (except Book32, the message of Book32 from [here](https://github.com/uchidalab/book-dataset/#disclaimer)).
+- Some datasets do not publish explicit licenses. In this case, we ask them for the license via email. That is the 'Message from original authors' (except Book32, the message of Book32 from [here](https://github.com/uchidalab/book-dataset/#disclaimer)).
 - We still did not get the information of license for datasets SVT, IIIT, and ReCTS. 
 - Please let us know if there is a license issue with dataset redistribution.
 In this case, we will remove the dataset and provide the preprocessing code for the dataset.
