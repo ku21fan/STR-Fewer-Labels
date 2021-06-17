@@ -8,7 +8,7 @@ The University of Tokyo.
 **We consolidate recently accumulated public real data and show that we can train STR models satisfactorily only with real labeled data**.
 Subsequently, we find simple data augmentation to fully exploit real data.
 Furthermore, we improve the models by collecting unlabeled data and introducing semi- and self-supervised methods.
-As a result, **we obtain a competitive model (only with real data) to state-of-the-art methods (that use large synthetic data)**.
+As a result, **we obtain a competitive model (only with real data) to state-of-the-art methods that use large synthetic data**.
 To the best of our knowledge, this is the first study that 1) shows sufficient performance by only using real labels and 2) introduces semi- and self-supervised methods into STR with fewer labels.
 **This work is a stepping stone toward STR with fewer labels, and we hope this work will facilitate future work on this topic.**
 
