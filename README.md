@@ -5,7 +5,7 @@ Official PyTorch implementation of STR-Fewer-Labels | [paper](https://arxiv.org/
 
 The University of Tokyo.
 
-**We consolidate recently accumulated public real data and show that we can train STR models satisfactorily only with real labeled data**.
+**We consolidate recently accumulated public real data and show that we can train STR models satisfactorily only with real labeled data (=276K, 1.7% of large synthetic data 16M)**.
 Subsequently, we find simple data augmentation to fully exploit real data.
 Furthermore, we improve the models by collecting unlabeled data and introducing semi- and self-supervised methods.
 As a result, **we obtain a competitive model (only with real data) to state-of-the-art methods that use large synthetic data**.
