@@ -10,8 +10,7 @@ The University of Tokyo.
 → All state-of-the-art (SOTA) methods use large synthetic data (16M) and most SOTA methods do not use any real data. <br>
 → Problem: the study of training STR with fewer real labels is insufficient. If you wonder about the detail, such as why this is a problem, please refer to our paper and supplement.
 
-2. Recently, the public real data are accumulated.
-**We consolidate accumulated real data, and show that we can train STR models sufficiently with fewer real labels (276K = 1.7% of large synthetic data 16M).**
+2. **We disprove the common knowledge by consolidating recently accumulated public real data and showing that we can train STR models sufficiently with fewer real labels (276K = 1.7% of large synthetic data 16M).**
 In our work, “sufficiently trained” means that the model has similar accuracy as the model trained on large synthetic data, as shown below figure.
 
 3. Subsequently, we find simple data augmentation to fully exploit real data.
