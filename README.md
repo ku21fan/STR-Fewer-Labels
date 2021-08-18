@@ -5,14 +5,20 @@ Official PyTorch implementation of STR-Fewer-Labels | [paper](https://arxiv.org/
 
 The University of Tokyo.
 
-**We consolidate recently accumulated public real data and show that we can train STR models satisfactorily only with real labeled data (=276K, 1.7% of large synthetic data 16M)**.
-Subsequently, we find simple data augmentation to fully exploit real data.
-Furthermore, we improve the models by collecting unlabeled data and introducing semi- and self-supervised methods.
-As a result, **we obtain a competitive model (only with real data) to state-of-the-art methods that use large synthetic data**.
-To the best of our knowledge, this is the first study that 1) shows sufficient performance by only using real labels and 2) introduces semi- and self-supervised methods into STR with fewer labels.
+1. In STR field, **real data was too small < 10K images.** <br>
+→ There is Implicit common knowledge “We should use synthetic data, since we don't have enough real data to train models sufficiently.” <br>
+→ All state-of-the-art (SOTA) methods use large synthetic data (16M) and most SOTA methods do not use any real data. <br>
+→ Problem: the study of training STR with fewer real labels is insufficient. If you wonder about the detail, such as why this is a problem, please refer to our paper and supplement.
+
+2. Recently, the public real data are accumulated.
+**We consolidate accumulated real data, and show that we can train STR models sufficiently with fewer real labels (276K = 1.7% of large synthetic data 16M).**
+In our work, “sufficiently trained” means that the model has similar accuracy as the model trained on large synthetic data, as shown below figure.
+
+3. Subsequently, we find simple data augmentation to fully exploit real data.
+Furthermore, we improve the models by collecting unlabeled data and introducing semi- and self-supervised methods. 
+As a result, **we obtain a competitive model (only with real data) to state-of-the-art methods that use large synthetic data**. 
+
 **This work is a stepping stone toward STR with fewer labels, and we hope this work will facilitate future work on this topic.**
-
-
 
 <img src="teaser.png" width="50%" title="teaser">
 
