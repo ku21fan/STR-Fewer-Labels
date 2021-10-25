@@ -1,5 +1,6 @@
 # We consolidate 11 real labeled datasets and 3 unlabeled datasets.
-### [Download preprocessed lmdb dataset for traininig and evaluation](https://www.dropbox.com/sh/1s6r4slurc5ei2n/AACg6TqoDfGdKe8t40Em1fgxa?dl=0)
+### [Download preprocessed lmdb dataset for traininig and evaluation](https://www.dropbox.com/sh/1s6r4slurc5ei2n/AACg6TqoDfGdKe8t40Em1fgxa?dl=0) 
+[To download from BaiduYun, see this issue.](https://github.com/ku21fan/STR-Fewer-Labels/issues/4#issuecomment-950785928) <br>
 The detail of datasets is described in [our paper and supplementary materials](https://arxiv.org/abs/2103.04400). <br>
 'data_CVPR2021.zip' contains 11 real labeled datasets and 3 unlabeled datasets. <br>
 The structure of 'data_CVPR2021' is as follows:
