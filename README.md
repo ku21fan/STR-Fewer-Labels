@@ -13,8 +13,8 @@ The University of Tokyo.
 2. **We disprove the common knowledge by consolidating recently accumulated public real data and showing that we can train STR models sufficiently with fewer real labels (276K = 1.7% of large synthetic data 16M).**
 In our work, “sufficiently trained” means that the model has similar accuracy as the model trained on large synthetic data, as shown below figure.
 
-3. Subsequently, as a baseline study of STR with fewer labels, we analyze simple data augmentations and semi- and self-supervised learning methods.
-As a result, **we obtain a competitive model with only real data, which has similar accuracy to SOTA methods that use large synthetic data.**
+3. Subsequently, as a baseline study of STR with fewer labels, we apply simple data augmentations and semi- and self-supervised learning methods.
+As a result, **we obtain a competitive model with only real data, which has better accuracy than the model trained on large synthetic data and similar accuracy to other SOTA methods that use large synthetic data. (see Table 2 in our paper)**
 
 This work is a stepping stone toward STR with fewer labels, and we hope this work will facilitate future work on this topic.
 
