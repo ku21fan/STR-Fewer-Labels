@@ -60,10 +60,10 @@ class Model(nn.Module):
                         self.FeatureExtraction_output, opt.hidden_size, opt.hidden_size
                     ),
                     BidirectionalLSTM(
-                        opt.hidden_size, opt.hidden_size, opt.hidden_size
+                        opt.hidden_size, opt.hidden_size, opt.output_channel
                     ),
                 )
-                self.SequenceModeling_output = opt.hidden_size
+                self.SequenceModeling_output = opt.output_channel
             else:
                 print("No SequenceModeling module specified")
                 self.SequenceModeling_output = self.FeatureExtraction_output
