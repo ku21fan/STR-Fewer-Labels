@@ -160,6 +160,7 @@ demo.py
    ```
 2. Modify `--select_data`, `--batch_ratio`, and `opt.character`, see [this issue](https://github.com/clovaai/deep-text-recognition-benchmark/issues/85).
 
+3. Please check [this comment](https://github.com/ku21fan/STR-Fewer-Labels/issues/9#issuecomment-1362899064) also.
 
 ## Acknowledgements
 This implementation has been based on the repository [deep-text-recognition-benchmark](https://github.com/clovaai/deep-text-recognition-benchmark).
