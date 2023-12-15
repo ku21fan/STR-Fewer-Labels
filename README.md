@@ -1,24 +1,26 @@
 # What If We Only Use Real Datasets for Scene Text Recognition? Toward Scene Text Recognition With Fewer Labels
 Official PyTorch implementation of STR-Fewer-Labels | [paper](https://arxiv.org/abs/2103.04400) | [training and evaluation data](https://github.com/ku21fan/STR-Fewer-Labels/blob/main/data.md) | [pretrained model](#pretrained_models) |
 
-**[Jeonghun Baek](https://jeonghunbaek.net/), [Yusuke Matusi](http://yusukematsui.me/), [Kiyoharu Aizawa](http://www.hal.t.u-tokyo.ac.jp/~aizawa/)**
+[Jeonghun Baek](https://jeonghunbaek.net/), [Yusuke Matusi](http://yusukematsui.me/), [Kiyoharu Aizawa](http://www.hal.t.u-tokyo.ac.jp/~aizawa/)
 
-The University of Tokyo.
+The University of Tokyo
 
-1. In STR field, **real data was too small < 10K images.** <br>
-→ There is Implicit common knowledge “We should use synthetic data, since we don't have enough real data to train models sufficiently.” <br>
+1. In the STR field, **real data was too small < 10K images.** <br>
+→ There is Implicit common knowledge: “We should use synthetic data since we don't have enough real data to train models sufficiently.” <br>
 → All state-of-the-art (SOTA) methods use large synthetic data (16M). <br>
-→ **Problem: the study of training STR with fewer real labels is insufficient.** If you wonder about the detail, such as why this is a problem, please refer to our paper and supplement.
+→ **Problem: the study of training STR with fewer real labels is insufficient.** If you wonder about the details, such as why this is a problem, please refer to our paper and supplement.
 
 2. **We disprove the common knowledge by consolidating recently accumulated public real data and showing that we can train STR models sufficiently with fewer real labels (276K = 1.7% of large synthetic data 16M).**
-In our work, “sufficiently trained” means that the model has similar accuracy as the model trained on large synthetic data, as shown below figure.
+In our work, “sufficiently trained” means that the model has similar accuracy as the model trained on large synthetic data, as shown in the figure below.
 
 3. Subsequently, as a baseline study of STR with fewer labels, we apply simple data augmentations and semi- and self-supervised learning methods.
 As a result, **we obtain a competitive model with only real data, which has better accuracy than the model trained on large synthetic data and similar accuracy to other SOTA methods that use large synthetic data. (see Table 2 in our paper)**
 
 This work is a stepping stone toward STR with fewer labels, and we hope this work will facilitate future work on this topic.
 
-<img src="teaser.png" width="50%" title="teaser">
+<p align="center">
+      <img src="teaser.png" width="50%">
+</p>
 
 
 
@@ -28,13 +30,13 @@ This work is a stepping stone toward STR with fewer labels, and we hope this wor
 
 ## Getting Started
 ### Dependency
-- This work was tested with PyTorch 1.6.0, CUDA 10.1 and python 3.6.
+- This work was tested with PyTorch 1.6.0, CUDA 10.1, and Python 3.6.
 - requirements : lmdb, pillow, torchvision, nltk, natsort, fire, tensorboard, tqdm
 
       pip3 install lmdb pillow torchvision nltk natsort fire tensorboard tqdm
 
 
-### Download preprocessed lmdb dataset for traininig and evaluation 
+### Download preprocessed lmdb dataset for training and evaluation 
 See [`data.md`](https://github.com/ku21fan/STR-Fewer-Labels/blob/main/data.md)
 
 <h3 id="pretrained_models"> Run demo with pretrained model <a href="https://colab.research.google.com/github/ku21fan/STR-Fewer-Labels/blob/master/demo_in_colab.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> </h3> 
