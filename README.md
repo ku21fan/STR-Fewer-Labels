@@ -1,10 +1,6 @@
 # What If We Only Use Real Datasets for Scene Text Recognition? Toward Scene Text Recognition With Fewer Labels
 Official PyTorch implementation of STR-Fewer-Labels | [paper](https://arxiv.org/abs/2103.04400) | [training and evaluation data](https://github.com/ku21fan/STR-Fewer-Labels/blob/main/data.md) | [pretrained model](#pretrained_models) |
 
-[Jeonghun Baek](https://jeonghunbaek.net/), [Yusuke Matusi](http://yusukematsui.me/), [Kiyoharu Aizawa](http://www.hal.t.u-tokyo.ac.jp/~aizawa/)
-
-The University of Tokyo
-
 1. In the STR field, **real data was too small < 10K images.** <br>
 → There is Implicit common knowledge: “We should use synthetic data since we don't have enough real data to train models sufficiently.” <br>
 → All state-of-the-art (SOTA) methods use large synthetic data (16M). <br>
